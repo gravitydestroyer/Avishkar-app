@@ -1,6 +1,7 @@
 package com.gravitydestroyer.avishkar.activities;
 
 import android.app.ActivityOptions;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -25,6 +26,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
+import com.gravitydestroyer.avishkar.Avishweb;
+import com.gravitydestroyer.avishkar.Exhibition;
 import com.gravitydestroyer.avishkar.R;
 import com.gravitydestroyer.avishkar.adapters.PostsAdapter;
 import com.gravitydestroyer.avishkar.enums.PostStatus;
@@ -58,6 +61,7 @@ public class MainActivity extends BaseActivity {
     private TextView newPostsCounterTextView;
     private PostManager.PostCounterWatcher postCounterWatcher;
     private boolean counterAnimationInProgress = false;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +73,7 @@ public class MainActivity extends BaseActivity {
 
         AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
-                .withHeaderBackground(R.drawable.material)
+                .withHeaderBackground(R.drawable.spacex2)
                 .addProfiles(
                         new ProfileDrawerItem().withName("Avishkar 2018").withEmail("avskr.in").withIcon(getResources().getDrawable(R.drawable.avishkar_ico_round))
                 )
@@ -87,11 +91,15 @@ public class MainActivity extends BaseActivity {
         PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("OfflineEvents");
         PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("OnlineEvents");
         PrimaryDrawerItem item4 = new PrimaryDrawerItem().withIdentifier(4).withName("Workshops");
-        PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Schedule");
-        PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Sponsors");
-        PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("Map");
-        PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Contacts");
-        PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Visit Our Website");
+        PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Exhibitions");
+        PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Schedule");
+        PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("Sponsors");
+        PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Map");
+        PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Contacts");
+        PrimaryDrawerItem item10= new PrimaryDrawerItem().withIdentifier(10).withName("Visit Our Website");
+        PrimaryDrawerItem item11 = new PrimaryDrawerItem().withIdentifier(11).withName("About AVISHKAR");
+
+
 
 
 //create the drawer and remember the `Drawer` result object
@@ -109,7 +117,9 @@ public class MainActivity extends BaseActivity {
                         item6,
                         item7,
                         item8,
-                        item9
+                        item9,
+                        item10,
+                        item11
 
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
@@ -117,16 +127,16 @@ public class MainActivity extends BaseActivity {
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
                         // do something with the clicked item :D
 
-                        switch (position)
-                        {
-                            case 1:break;
-                            case 2:break;
-                            case 3:break;
-                            case 4:break;
-                            case 5:break;
-                            case 6:break;
-                            case 7:break;
-                            case 8:break;
+                        switch (position) {
+                                case 5:
+                                    Intent exhi=new Intent(MainActivity.this,Exhibition.class);
+                                    startActivity(exhi);
+                                    break;
+                                case 10:
+                                    Intent avish=new Intent(MainActivity.this,Avishweb.class);
+                                    startActivity(avish);
+                                    break;
+
                         }return true;
                     }
                 })

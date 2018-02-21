@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#BC29C2</color>
-    <color name="primary_dark">#821887</color>
+    <color name="primary">#C70F41</color>
+    <color name="primary_dark">#9A0830</color>
     <color name="primary_light">#D7CCC8</color>
     <color name="dart_transparent">#81000000</color>
 
@@ -13,7 +13,7 @@
     <color name="divider">#BDBDBD</color>
 
     <color name="custom_divider_color">#dfdfdf</color>
-    <color name="highlight_text">#821887</color>
+    <color name="highlight_text">#9A0830</color>
 
     <color name="send_button_color">@color/primary</color>
 
@@ -24,8 +24,8 @@
     <color name="icons_counter_color">#828181</color>
     <color name="circle_image_shadow">#8b8b8b</color>
 
-    <color name="send_comment_button_activated">#821887</color>
-    <color name="send_comment_button_deactivated">#BC29C2</color>
+    <color name="send_comment_button_activated">#9A0830</color>
+    <color name="send_comment_button_deactivated">#C70F41</color>
 
     <color name="facebook_button_color">#3b5999</color>
     <color name="facebook_button_color_pressed">#2f477a</color>
@@ -34,16 +34,16 @@
     <color name="button_pressed_text_color">#bcbcbc</color>
 
     <!-- dots inactive colors -->
-    <color name="dot_dark_screen1">#a854d4</color>
-    <color name="dot_dark_screen2">#a854d4</color>
-    <color name="dot_dark_screen3">#a854d4</color>
-    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen1">#C70F41</color>
+    <color name="dot_dark_screen2">#C70F41</color>
+    <color name="dot_dark_screen3">#C70F41</color>
+    <color name="dot_dark_screen4">#C70F41</color>
 
     <!-- dots active colors -->
-    <color name="dot_light_screen1">#e4b5fc</color>
-    <color name="dot_light_screen2">#e4b5fc</color>
-    <color name="dot_light_screen3">#e4b5fc</color>
-    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen1">#F05781</color>
+    <color name="dot_light_screen2">#F05781</color>
+    <color name="dot_light_screen3">#F05781</color>
+    <color name="dot_light_screen4">#F05781</color>
 
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>

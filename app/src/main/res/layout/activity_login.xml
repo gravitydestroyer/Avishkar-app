@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
     tools:context="com.gravitydestroyer.avishkar.activities.LoginActivity">
 
 
@@ -22,6 +23,7 @@
             android:layout_height="@dimen/base_login_button_height"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/login_screen_button_margin"
+            android:layout_marginTop="200dp"
             android:background="@drawable/facebook_button_bg"
             android:elevation="4dp">
 
@@ -49,6 +51,7 @@
             android:layout_height="@dimen/base_login_button_height"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/login_screen_button_margin"
+            android:layout_marginTop="40dp"
             android:background="@drawable/google_button_bg"
             android:elevation="4dp">
 

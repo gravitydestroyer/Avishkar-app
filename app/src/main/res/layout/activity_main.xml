@@ -74,6 +74,6 @@
         android:clickable="true"
         android:src="@drawable/ic_add_white_48dp"
         android:layout_gravity="bottom|right"
-        app:backgroundTint="@color/md_purple_A200"/>
+        app:backgroundTint="@color/material_drawer_primary"/>
 
 </android.support.design.widget.CoordinatorLayout>

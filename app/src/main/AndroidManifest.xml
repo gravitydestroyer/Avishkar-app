@@ -90,8 +90,9 @@
 
         <activity
             android:name=".WelcomeActivity"
-            android:theme="@style/AppCompat.NoActionBar">
-        </activity>
+            android:theme="@style/AppCompat.NoActionBar" />
+        <activity android:name=".Exhibition" />
+        <activity android:name=".Avishweb"></activity>
     </application>
 
 </manifest>

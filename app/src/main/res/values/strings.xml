@@ -137,5 +137,19 @@
 
     <!--Firebase errors-->
     <string name="permission_denied_error">Please check your rules to access the Firebase Realtime Database</string>
+    <string name="title_activity_exhibition">Exhibition</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!---Viewpager Strings-->
+    <string name="title_1">Title1</string>
+    <string name="title_2">Title2</string>
+    <string name="title_3">Title3</string>
+    <string name="title_4">Title4</string>
+
+    <string name="text_1">Text1</string>
+    <string name="text_2">Text2</string>
+    <string name="text_3">Text3</string>
+    <string name="text_4">Text4</string>
 
 </resources>

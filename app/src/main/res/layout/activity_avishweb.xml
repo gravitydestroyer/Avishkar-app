@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gravitydestroyer.avishkar.SplashScreenActivity">
+    tools:context="com.gravitydestroyer.avishkar.Avishweb">
 
-    <com.felipecsl.gifimageview.library.GifImageView
+    <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/gifimage"
-        android:scaleType="center"/>
+        android:id="@+id/avishweb">
+    </WebView>
 
 </android.support.constraint.ConstraintLayout>
