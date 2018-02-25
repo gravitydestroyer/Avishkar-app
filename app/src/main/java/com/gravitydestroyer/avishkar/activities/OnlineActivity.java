@@ -6,6 +6,8 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.widget.Button;
 
+import com.gravitydestroyer.avishkar.R;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -97,7 +97,10 @@
             android:name=".ScheduleActivity"
             android:label="@string/title_activity_schedule"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ContactActivity"></activity>
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".activities.WorkshopActivity" />
+        <activity android:name=".activities.OnlineActivity" />
+        <activity android:name=".activities.OfflineActivity"></activity>
     </application>
 
 </manifest>

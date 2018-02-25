@@ -129,10 +129,22 @@ public class MainActivity extends BaseActivity {
                         // do something with the clicked item :D
 
                         switch (position) {
-                                case 5:
-                                    Intent exhi=new Intent(MainActivity.this,Exhibition.class);
-                                    startActivity(exhi);
+                                case 2:
+                                    Intent off=new Intent(MainActivity.this,OfflineActivity.class);
+                                    startActivity(off);
                                     break;
+                            case 3:
+                                Intent on=new Intent(MainActivity.this,OnlineActivity.class);
+                                startActivity(on);
+                                break;
+                            case 4:
+                                Intent workshop=new Intent(MainActivity.this,WorkshopActivity.class);
+                                startActivity(workshop);
+                                break;
+                            case 5:
+                                Intent exhi=new Intent(MainActivity.this,Exhibition.class);
+                                startActivity(exhi);
+                                break;
                             case 6:
                                 Intent schedl=new Intent(MainActivity.this,ScheduleActivity.class);
                                 startActivity(schedl);

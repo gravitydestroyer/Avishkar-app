@@ -15,13 +15,15 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
+import com.gravitydestroyer.avishkar.R;
+
 import java.util.List;
 
 public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.WorkshopViewHolder> {
     public Integer[] mThumbIds = {
-            R.drawable.sample_0, R.drawable.sample_2,
-            R.drawable.sample_3, R.drawable.sample_4,
-            R.drawable.sample_5
+            R.drawable.material, R.drawable.material,
+            R.drawable.material, R.drawable.material,
+            R.drawable.material
     };
     private List<Event> WEventList;
     private List<Descript> WDescriptList;

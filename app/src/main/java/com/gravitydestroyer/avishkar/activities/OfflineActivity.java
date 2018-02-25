@@ -5,12 +5,12 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.widget.Button;
+
+import com.gravitydestroyer.avishkar.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,16 +19,16 @@ import java.util.List;
 public class OfflineActivity extends AppCompatActivity {
 
     private StaggeredGridLayoutManager layoutManager;
-   public void cally(){
-       Intent callIntent = new Intent(Intent.ACTION_CALL);
-       callIntent.setData(Uri.parse("tel:8879716459"));
+    public void cally(){
+        Intent callIntent = new Intent(Intent.ACTION_CALL);
+        callIntent.setData(Uri.parse("tel:8879716459"));
 
-       if (ActivityCompat.checkSelfPermission(OfflineActivity.this,
-               Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-           return;
-       }
-       startActivity(callIntent);
-   }
+        if (ActivityCompat.checkSelfPermission(OfflineActivity.this,
+                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            return;
+        }
+        startActivity(callIntent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
