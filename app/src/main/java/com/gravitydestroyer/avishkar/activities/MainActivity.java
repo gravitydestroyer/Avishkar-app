@@ -27,8 +27,10 @@ import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.gravitydestroyer.avishkar.Avishweb;
+import com.gravitydestroyer.avishkar.ContactActivity;
 import com.gravitydestroyer.avishkar.Exhibition;
 import com.gravitydestroyer.avishkar.R;
+import com.gravitydestroyer.avishkar.ScheduleActivity;
 import com.gravitydestroyer.avishkar.adapters.PostsAdapter;
 import com.gravitydestroyer.avishkar.enums.PostStatus;
 import com.gravitydestroyer.avishkar.enums.ProfileStatus;
@@ -44,7 +46,6 @@ import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
-import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 
@@ -132,7 +133,16 @@ public class MainActivity extends BaseActivity {
                                     Intent exhi=new Intent(MainActivity.this,Exhibition.class);
                                     startActivity(exhi);
                                     break;
-                                case 10:
+                            case 6:
+                                Intent schedl=new Intent(MainActivity.this,ScheduleActivity.class);
+                                startActivity(schedl);
+                                break;
+                            case 9:
+                                Intent con=new Intent(MainActivity.this,ContactActivity.class);
+                                startActivity(con);
+                                break;
+
+                            case 10:
                                     Intent avish=new Intent(MainActivity.this,Avishweb.class);
                                     startActivity(avish);
                                     break;

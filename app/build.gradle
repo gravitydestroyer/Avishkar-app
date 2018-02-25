@@ -55,6 +55,7 @@ dependencies {
     compile 'com.mikepenz:fontawesome-typeface:4.4.0.1@aar'
     compile 'com.felipecsl:gifimageview:2.1.0'
     compile "commons-io:commons-io:2.4"
+    compile 'de.hdodenhof:circleimageview:2.2.0'
 
 }
 

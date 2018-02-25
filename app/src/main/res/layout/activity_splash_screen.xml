@@ -6,10 +6,5 @@
     android:layout_height="match_parent"
     tools:context="com.gravitydestroyer.avishkar.SplashScreenActivity">
 
-    <com.felipecsl.gifimageview.library.GifImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/gifimage"
-        android:scaleType="center"/>
 
 </android.support.constraint.ConstraintLayout>
