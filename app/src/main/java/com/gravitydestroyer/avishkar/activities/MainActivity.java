@@ -7,6 +7,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -26,11 +28,17 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
-import com.gravitydestroyer.avishkar.Avishweb;
-import com.gravitydestroyer.avishkar.ContactActivity;
-import com.gravitydestroyer.avishkar.Exhibition;
+import com.gravitydestroyer.avishkar.AboutFragment;
+import com.gravitydestroyer.avishkar.ContactsFragment;
+import com.gravitydestroyer.avishkar.Exhibitionfragment;
+import com.gravitydestroyer.avishkar.MapFragment;
+import com.gravitydestroyer.avishkar.OfflineFragment;
+import com.gravitydestroyer.avishkar.OnlineFragment;
 import com.gravitydestroyer.avishkar.R;
-import com.gravitydestroyer.avishkar.ScheduleActivity;
+import com.gravitydestroyer.avishkar.ScheduleFragment;
+import com.gravitydestroyer.avishkar.SponsorFragment;
+import com.gravitydestroyer.avishkar.WebsiteFragment;
+import com.gravitydestroyer.avishkar.WorkshopFragment;
 import com.gravitydestroyer.avishkar.adapters.PostsAdapter;
 import com.gravitydestroyer.avishkar.enums.PostStatus;
 import com.gravitydestroyer.avishkar.enums.ProfileStatus;
@@ -63,6 +71,7 @@ public class MainActivity extends BaseActivity {
     private PostManager.PostCounterWatcher postCounterWatcher;
     private boolean counterAnimationInProgress = false;
     private Context context;
+    Drawer result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,7 +113,7 @@ public class MainActivity extends BaseActivity {
 
 
 //create the drawer and remember the `Drawer` result object
-        Drawer result = new DrawerBuilder()
+        result = new DrawerBuilder()
                 .withActivity(this)
                 .withAccountHeader(headerResult)
 
@@ -126,9 +135,9 @@ public class MainActivity extends BaseActivity {
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-                        // do something with the clicked item :D
-
-                        switch (position) {
+                        selectDrawerItem((int) drawerItem.getIdentifier(), drawerItem);
+                        return true;
+                        /*switch (position) {
                                 case 2:
                                     Intent off=new Intent(MainActivity.this,OfflineActivity.class);
                                     startActivity(off);
@@ -159,7 +168,7 @@ public class MainActivity extends BaseActivity {
                                     startActivity(avish);
                                     break;
 
-                        }return true;
+                        }return true;*/
                     }
                 })
                 .build();
@@ -185,6 +194,56 @@ public class MainActivity extends BaseActivity {
         super.onResume();
         updateNewPostCounter();
     }
+
+    public void selectDrawerItem(int ItemId,IDrawerItem drawerItem) {
+        // Create a new fragment and specify the fragment to show based on nav item clicked
+        Fragment fragment = null;
+        Class fragmentClass = null;
+        switch(ItemId) {
+            case 1:
+                break;
+            case 2:
+                fragmentClass = OfflineFragment.class;
+                break;
+            case 3:
+                fragmentClass = OnlineFragment.class;
+                break;
+            case 4:
+                fragmentClass = WorkshopFragment.class;
+                break;
+            case 5:
+                fragmentClass = Exhibitionfragment.class;
+                break;
+            case 6:
+                fragmentClass = ScheduleFragment.class;
+                break;
+            case 7:
+                fragmentClass = SponsorFragment.class;
+                break;
+            case 8:
+                fragmentClass = MapFragment.class;
+                break;
+            case 9:
+                fragmentClass = ContactsFragment.class;
+                break;
+            case 10:
+                fragmentClass = WebsiteFragment.class;
+                break;
+            case 11:
+                fragmentClass = AboutFragment.class;
+                break;
+        }
+        try {
+            fragment = (Fragment) fragmentClass.newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        // Insert the fragment by replacing any existing fragment
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.activity_main, fragment).commit();
+        result.closeDrawer();
+    }
+
 
     private void setOnLikeAddedListener() {
         DatabaseHelper.getInstance(this).onNewLikeAddedListener(new ChildEventListener() {
