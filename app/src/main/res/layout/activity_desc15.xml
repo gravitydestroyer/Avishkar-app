@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.gravitydestroyer.aavishkar.activities.desc15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="#980e7d"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/lipi3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="The variety in culture and regions is what makes India great. So we bring an event aimed at increasing regional knowledge base for developing open source software in regional languages."
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="urlopen"
+            android:paddingBottom="20dp"
+            android:paddingTop="25dp"
+            android:text="Link to event"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:foregroundGravity="bottom"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="fbopen"
+                android:paddingBottom="5dp"
+                app:srcCompat="@drawable/fbicon" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="phoneopen"
+                app:srcCompat="@drawable/callicon" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

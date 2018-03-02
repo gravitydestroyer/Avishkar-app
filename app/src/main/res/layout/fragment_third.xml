@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="60dp"
+    android:paddingBottom="15dp"
     >
 
 
@@ -17,24 +17,40 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
             android:orientation="horizontal"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/textView2"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="12:30"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:text="pm"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
@@ -43,47 +59,82 @@
                 android:layout_gravity="right"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#667a7e"
+                card_view:cardCornerRadius="2dp">
 
 
-                <TextView
-                    android:id="@+id/info_text"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Invictus"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
             android:orientation="horizontal"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/textView2"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="12:30"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:text="pm"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
@@ -92,47 +143,82 @@
                 android:layout_gravity="right"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#c28bd6"
+                card_view:cardCornerRadius="2dp">
 
 
-                <TextView
-                    android:id="@+id/info_text"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Invictus"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
             android:orientation="horizontal"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/textView2"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="12:30"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:text="pm"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
@@ -141,47 +227,82 @@
                 android:layout_gravity="right"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#1b782a"
+                card_view:cardCornerRadius="2dp">
 
 
-                <TextView
-                    android:id="@+id/info_text"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Invictus"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
             android:orientation="horizontal"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/textView2"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="12:30"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:text="pm"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
@@ -190,47 +311,82 @@
                 android:layout_gravity="right"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#5e7ded"
+                card_view:cardCornerRadius="2dp">
 
 
-                <TextView
-                    android:id="@+id/info_text"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Invictus"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
             android:orientation="horizontal"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/textView2"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="12:30"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:text="pm"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
@@ -239,47 +395,82 @@
                 android:layout_gravity="right"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#ed473e"
+                card_view:cardCornerRadius="2dp">
 
 
-                <TextView
-                    android:id="@+id/info_text"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Invictus"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
             android:orientation="horizontal"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/textView2"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="12:30"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:text="pm"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
@@ -288,47 +479,82 @@
                 android:layout_gravity="right"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#8b5e1a"
+                card_view:cardCornerRadius="2dp">
 
 
-                <TextView
-                    android:id="@+id/info_text"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Invictus"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
             android:orientation="horizontal"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/textView2"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="12:30"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:text="pm"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
@@ -337,47 +563,82 @@
                 android:layout_gravity="right"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#1b782a"
+                card_view:cardCornerRadius="2dp">
 
 
-                <TextView
-                    android:id="@+id/info_text"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Invictus"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
 
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
             android:orientation="horizontal"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
 
-            <TextView
-                android:id="@+id/textView2"
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="12:30"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:text="pm"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/card_view"
@@ -386,320 +647,47 @@
                 android:layout_gravity="right"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#ff3d88"
+                card_view:cardCornerRadius="2dp">
 
 
-                <TextView
-                    android:id="@+id/info_text"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="6"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Invictus"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
+                        android:text="TextView"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingBottom="1dp"
-            android:paddingTop="1dp">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
-
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="7"
-                android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
-
-
-                <TextView
-                    android:id="@+id/info_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
-            </android.support.v7.widget.CardView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingBottom="1dp"
-            android:paddingTop="1dp">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
-
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="7"
-                android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
-
-
-                <TextView
-                    android:id="@+id/info_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
-            </android.support.v7.widget.CardView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingBottom="1dp"
-            android:paddingTop="1dp">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
-
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="7"
-                android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
-
-
-                <TextView
-                    android:id="@+id/info_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
-            </android.support.v7.widget.CardView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingBottom="1dp"
-            android:paddingTop="1dp">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="12:30pm"
-                android:textSize="16sp" />
-
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="7"
-                android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
-
-
-                <TextView
-                    android:id="@+id/info_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
-            </android.support.v7.widget.CardView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingBottom="1dp"
-            android:paddingTop="1dp">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="2:30pm"
-                android:textSize="16sp" />
-
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="7"
-                android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
-
-
-                <TextView
-                    android:id="@+id/info_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
-            </android.support.v7.widget.CardView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingBottom="1dp"
-            android:paddingTop="1dp">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="2"
-                android:paddingBottom="8dp"
-                android:paddingLeft="8dp"
-                android:paddingRight="5dp"
-                android:paddingTop="8dp"
-                android:text="1:30pm"
-                android:textSize="16sp" />
-
-            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="7"
-                android:background="@android:color/holo_blue_dark"
-                card_view:cardBackgroundColor="@android:color/holo_blue_bright"
-                card_view:cardCornerRadius="5dp">
-
-
-                <TextView
-                    android:id="@+id/info_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="8dp"
-                    android:gravity="center_vertical"
-                    android:padding="2dp"
-                    android:text="Invictus"
-                    android:textColor="@android:color/white"
-                    android:textSize="22sp" />
-            </android.support.v7.widget.CardView>
-
-
-        </LinearLayout>
 
 
     </LinearLayout>

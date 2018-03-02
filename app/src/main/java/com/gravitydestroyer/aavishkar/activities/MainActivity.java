@@ -26,7 +26,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
-import com.gravitydestroyer.aavishkar.ScheduleActivity;
+import com.gravitydestroyer.aavishkar.Schedule;
 import com.gravitydestroyer.aavishkar.R;
 import com.gravitydestroyer.aavishkar.adapters.PostsAdapter;
 import com.gravitydestroyer.aavishkar.enums.PostStatus;
@@ -142,7 +142,7 @@ public class MainActivity extends BaseActivity {
                                 startActivity(exhi);
                                 break;
                             case 6:
-                                Intent sch=new Intent(MainActivity.this, ScheduleActivity.class);
+                                Intent sch=new Intent(MainActivity.this, Schedule.class);
                                 startActivity(sch);
                                 break;
                             case 7:

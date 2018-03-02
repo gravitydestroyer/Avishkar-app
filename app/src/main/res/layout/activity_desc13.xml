@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.gravitydestroyer.aavishkar.activities.desc13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="#125067"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/conquestodb" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="This event is a platform for the participants to channel their latent business acumen and combat challenges in the industrial world. For the first time engineers-in-making are given a chance to setup their own companies,as they bid their way to attain the force and power to execute their ideas and convince business tycoons to fund their attempts. Real time problems in the industrial world would test the practicality and feasibility of their ideas. All-in-all this will surely be an event which keeps the contestants at the edge-of-their-seats throughout as they battle their way through the cut-throat competition of the industrial giants."
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="urlopen"
+            android:paddingBottom="20dp"
+            android:paddingTop="25dp"
+            android:text="Link to event"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:foregroundGravity="bottom"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="fbopen"
+                android:paddingBottom="5dp"
+                app:srcCompat="@drawable/fbicon" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="phoneopen"
+                app:srcCompat="@drawable/callicon" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

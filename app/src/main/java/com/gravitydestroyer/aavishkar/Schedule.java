@@ -1,6 +1,8 @@
 package com.gravitydestroyer.aavishkar;
 
 import android.support.design.widget.TabLayout;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -15,7 +17,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class ScheduleActivity extends AppCompatActivity {
+import android.widget.TextView;
+
+public class Schedule extends AppCompatActivity {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -116,7 +120,7 @@ public class ScheduleActivity extends AppCompatActivity {
                 View rootView = inflater.inflate(R.layout.fragment_third, container, false);
                 return rootView;
             }
-            else {
+            else{
                 View rootView = inflater.inflate(R.layout.fragment_fourth, container, false);
                 return rootView;
             }
@@ -150,13 +154,13 @@ public class ScheduleActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "15th March";
+                    return "1st DAY";
                 case 1:
-                    return "16th March";
+                    return "2nd DAY";
                 case 2:
-                    return "17th March";
+                    return "3rd DAY";
                 case 3:
-                    return "18th March";
+                    return "4th DAY";
             }
             return null;
         }

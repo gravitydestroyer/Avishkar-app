@@ -17,6 +17,8 @@
         android:icon="@mipmap/avishkar_ico"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:largeHeap="true"
+
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -92,7 +94,7 @@
             android:name=".WelcomeActivity"
             android:theme="@style/AppCompat.NoActionBar" />
         <activity
-            android:name=".ScheduleActivity"
+            android:name=".Schedule"
             android:label="@string/title_activity_schedule"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activities.WorkshopActivity" />
@@ -104,7 +106,38 @@
         <activity android:name=".activities.MapActivity" />
         <activity android:name=".activities.ContactsActivity2" />
         <activity android:name=".activities.WebsiteActivity" />
-        <activity android:name=".activities.ContactActivity"></activity>
+        <activity android:name=".activities.ContactActivity" />
+        <activity android:name=".activities.desc1" />
+        <activity android:name=".activities.desc2" />
+        <activity android:name=".activities.desc3" />
+        <activity android:name=".activities.desc4" />
+        <activity android:name=".activities.desc5" />
+        <activity android:name=".activities.desc6" />
+        <activity android:name=".activities.desc7" />
+        <activity android:name=".activities.desc8" />
+        <activity android:name=".activities.desc9" />
+        <activity android:name=".activities.desc10" />
+        <activity android:name=".activities.desc11" />
+        <activity android:name=".activities.desc12" />
+        <activity android:name=".activities.desc13" />
+        <activity android:name=".activities.desc14" />
+        <activity android:name=".activities.desc15" />
+        <activity android:name=".activities.desc16" />
+        <activity android:name=".activities.desc17" />
+        <activity android:name=".activities.desc18" />
+        <activity android:name=".activities.desc19" />
+        <activity android:name=".activities.desc20" />
+        <activity android:name=".activities.desc21" />
+        <activity android:name=".activities.desc22" />
+        <activity android:name=".activities.desc23" />
+        <activity android:name=".activities.odesc1" />
+        <activity android:name=".activities.odesc2" />
+        <activity android:name=".activities.odesc3" />
+        <activity android:name=".activities.odesc4" />
+        <activity android:name=".activities.odesc5" />
+        <activity android:name=".activities.odesc6" />
+        <activity android:name=".activities.odesc7" />
+        <activity android:name=".activities.odesc8"></activity>
     </application>
 
 </manifest>
