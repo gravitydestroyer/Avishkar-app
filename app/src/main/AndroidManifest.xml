@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gravitydestroyer.avishkar">
+    package="com.gravitydestroyer.aavishkar">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -98,7 +98,13 @@
         <activity android:name=".activities.WorkshopActivity" />
         <activity android:name=".activities.OnlineActivity" />
         <activity android:name=".activities.OfflineActivity" />
-        <activity android:name=".activities.ContributorsActivity"></activity>
+        <activity android:name=".activities.ContributorsActivity" />
+        <activity android:name=".activities.GuestActivity" />
+        <activity android:name=".activities.SponsorActivity" />
+        <activity android:name=".activities.MapActivity" />
+        <activity android:name=".activities.ContactsActivity2" />
+        <activity android:name=".activities.WebsiteActivity" />
+        <activity android:name=".activities.ContactActivity"></activity>
     </application>
 
 </manifest>

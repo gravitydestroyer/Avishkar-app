@@ -79,7 +79,7 @@
                             android:layout_centerInParent="true"
                             android:visibility="visible" />
 
-                        <com.gravitydestroyer.avishkar.views.CircularImageView
+                        <com.gravitydestroyer.aavishkar.views.CircularImageView
                             android:id="@+id/imageView"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"

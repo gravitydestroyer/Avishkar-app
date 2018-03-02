@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Avishkar 2018</string>
+    <string name="app_name">Aavishkar 2018</string>
     <string name="label_create_post_activity">Create post</string>
     <string name="label_post_detail_activity">Post detail</string>
     <string name="label_image_detail_activity">Image</string>
@@ -155,4 +155,19 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="arvind">Arvind Satya</string>
+    <string name="subham">Shubham Singh</string>
+    <string name="vikram">Vikram Reddy</string>
+    <string name="anuj">Anuj Maurya</string>
+    <string name="akash">Akash Agarwal</string>
+    <string name="punit">Punit Drolia</string>
+    <string name="piyush">Piyush Jain</string>
+    <string name="subranshu">Subranshu Mohanty</string>
+    <string name="mntc">Maths and Tech Club</string>
+    <string name="glug">GNU/Linux Users Group</string>
+    <string name="sae">SAE</string>
+
+
 </resources>

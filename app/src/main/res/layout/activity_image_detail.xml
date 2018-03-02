@@ -5,7 +5,7 @@
     android:id="@+id/image_detail_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gravitydestroyer.avishkar.activities.ImageDetailActivity">
+    tools:context="com.gravitydestroyer.aavishkar.activities.ImageDetailActivity">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -14,7 +14,7 @@
         android:layout_gravity="center"
         android:visibility="visible" />
 
-    <com.gravitydestroyer.avishkar.views.TouchImageView
+    <com.gravitydestroyer.aavishkar.views.TouchImageView
         android:id="@+id/touchImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

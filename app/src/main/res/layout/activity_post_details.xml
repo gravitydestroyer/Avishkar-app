@@ -154,7 +154,7 @@
 
             </RelativeLayout>
 
-            <com.gravitydestroyer.avishkar.views.CircularImageView
+            <com.gravitydestroyer.aavishkar.views.CircularImageView
                 android:id="@+id/authorImageView"
                 android:layout_width="@dimen/post_author_image_side"
                 android:layout_height="@dimen/post_author_image_side"

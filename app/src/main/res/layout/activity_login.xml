@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/loginbg1"
-    tools:context="com.gravitydestroyer.avishkar.activities.LoginActivity">
+    tools:context="com.gravitydestroyer.aavishkar.activities.LoginActivity">
 
 
     <LinearLayout

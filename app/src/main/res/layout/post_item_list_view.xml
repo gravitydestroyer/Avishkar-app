@@ -30,7 +30,7 @@
                 android:layout_marginBottom="@dimen/intrinsic_padding"
                 android:scaleType="centerCrop" />
 
-            <com.gravitydestroyer.avishkar.views.CircularImageView
+            <com.gravitydestroyer.aavishkar.views.CircularImageView
                 android:id="@+id/authorImageView"
                 android:layout_width="@dimen/post_list_item_author_image_side"
                 android:layout_height="@dimen/post_list_item_author_image_side"
