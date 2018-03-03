@@ -15,16 +15,17 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:id="@+id/heading_workshops"
+            android:background="#C70F41"
             >
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Workshops"
+                android:text="Workshops and Exhibitions"
                 android:id="@+id/workshops_text"
                 android:layout_gravity="center"
-                android:textColor="#D3D3D3"
+                android:textColor="#fff"
                 android:gravity="center"
                 android:fontFamily="sans-serif-light"
                 android:textAllCaps="true"/>
@@ -44,19 +45,20 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:id="@+id/text_head"
-            android:background="#373839"
+            android:background="#C70F41"
             android:gravity="center"
             android:textAllCaps="true"
             android:textSize="15dp"
-            android:textColor="#D3D3D3"/>
+            android:textColor="#fff"/>
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
-            android:layout_height="350dp"
+            android:layout_height="280dp"
             android:id="@+id/text_body"
             android:textSize="15sp"
             android:fontFamily="sans-serif"
-            android:textColor="#D3D3D3"
+            android:textColor="#C70F41"
             android:textAlignment="center"
             />
 
@@ -66,8 +68,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_centerHorizontal="true"
-            android:textColor="#D3D3D3"
-            android:background="#373839"
+            android:textColor="#fff"
+            android:background="#C70F41"
             android:id="@+id/call_button"
             android:layout_alignParentBottom="true"/>
 
