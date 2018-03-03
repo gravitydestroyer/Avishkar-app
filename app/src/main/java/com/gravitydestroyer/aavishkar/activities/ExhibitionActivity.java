@@ -1,5 +1,10 @@
 package com.gravitydestroyer.aavishkar.activities;
 
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.gravitydestroyer.aavishkar.R;
+
 import android.content.Context;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -10,10 +15,11 @@ import com.gravitydestroyer.aavishkar.CardPagerAdapter;
 import com.gravitydestroyer.aavishkar.R;
 import com.gravitydestroyer.aavishkar.ShadowTransformer;
 
+import android.widget.Button;
 
 
+public class ExhibitionActivity extends AppCompatActivity {
 
-public class GuestActivity extends AppCompatActivity {
 
     private ViewPager mViewPager;
 
@@ -24,15 +30,15 @@ public class GuestActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_guest);
+        setContentView(R.layout.activity_exhibition);
         mViewPager = (ViewPager)findViewById(R.id.viewPager);
 
         mCardAdapter = new CardPagerAdapter();
-        mCardAdapter.addCardItem(new CardItem(R.drawable.vaishali,R.string.title_4, R.string.text_1));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.anurag,R.string.title_2, R.string.text_2));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.sabyasachi,R.string.title_3, R.string.text_3));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.ashok, R.string.title_4,R.string.text_4));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.ajee,R.string.title_4, R.string.text_5));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.armyshow,R.string.title_1, R.string.text1));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.ensig,R.string.title_2, R.string.text2));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.stunts,R.string.title_3, R.string.text3));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.enzffsht,R.string.title_4,R.string.text4));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.autoexp,R.string.title_4, R.string.text5));
 
         mCardShadowTransformer = new ShadowTransformer(mViewPager, mCardAdapter);
 
@@ -49,5 +55,5 @@ public class GuestActivity extends AppCompatActivity {
 
     }
 
-    }
+}
 
