@@ -57,7 +57,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/arvind" />
+                            android:src="@drawable/akash" />
                     </LinearLayout>
 
                     <TextView
@@ -67,7 +67,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="@string/arvind"
+                        android:text="@string/akash"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -77,7 +77,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="President,SAE"
+                        android:text="Sponsorship"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -92,7 +92,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call1"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -149,7 +149,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/subham" />
+                            android:src="@drawable/anuj" />
                     </LinearLayout>
 
                     <TextView
@@ -159,7 +159,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="@string/subham"
+                        android:text="@string/anuj"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -169,7 +169,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="General Secretory,SAE"
+                        android:text="Sponsorship"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -184,7 +184,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call2"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -248,7 +248,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/vikram" />
+                            android:src="@drawable/devansh" />
                     </LinearLayout>
 
                     <TextView
@@ -258,7 +258,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="@string/vikram"
+                        android:text="Devansh Goenka"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -268,7 +268,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="Treasurer,SAE"
+                        android:text="Sponsorship"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -283,7 +283,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call3"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -340,7 +340,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/anuj" />
+                            android:src="@drawable/shreyashee2" />
                     </LinearLayout>
 
                     <TextView
@@ -350,7 +350,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="@string/anuj"
+                        android:text="@string/shreyashree"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -360,7 +360,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="Technical Head,SAE"
+                        android:text="Sponsorship"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -375,7 +375,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call4"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -439,7 +439,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/akash" />
+                            android:src="@drawable/nxtbig" />
                     </LinearLayout>
 
                     <TextView
@@ -449,7 +449,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="@string/akash"
+                        android:text="@string/adarsh"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -459,7 +459,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="Treasurer,MNTC"
+                        android:text="Accommodation"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -474,7 +474,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call5"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -531,7 +531,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/punitdrolia" />
+                            android:src="@drawable/subham" />
                     </LinearLayout>
 
                     <TextView
@@ -541,7 +541,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="@string/punit"
+                        android:text="@string/subham"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -551,7 +551,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="Senior Fest Co-ordinator,MNTC"
+                        android:text="Accomodation"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -566,7 +566,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call6"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -630,7 +630,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/piyush" />
+                            android:src="@drawable/punitdrolia" />
                     </LinearLayout>
 
                     <TextView
@@ -640,7 +640,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="@string/piyush"
+                        android:text="@string/punit"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -650,7 +650,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="@string/mntc"
+                        android:text="Accommodation"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -665,7 +665,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call7"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -722,7 +722,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/subranshu" />
+                            android:src="@drawable/vikram" />
                     </LinearLayout>
 
                     <TextView
@@ -732,7 +732,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="@string/subranshu"
+                        android:text="@string/vikram"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -742,7 +742,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="@string/mntc"
+                        android:text="Accommodation"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -757,7 +757,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call8"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -821,7 +821,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/me" />
+                            android:src="@drawable/piyusha" />
                     </LinearLayout>
 
                     <TextView
@@ -831,7 +831,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="TextView"
+                        android:text="Piyush Aggarwal"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -841,7 +841,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="TextView"
+                        android:text="General"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -856,7 +856,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call9"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -913,7 +913,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/me" />
+                            android:src="@drawable/arvind" />
                     </LinearLayout>
 
                     <TextView
@@ -923,7 +923,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="TextView"
+                        android:text="Arvind Satya"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -933,7 +933,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="TextView"
+                        android:text="General"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -948,7 +948,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call10"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -1012,7 +1012,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/me" />
+                            android:src="@drawable/piyush" />
                     </LinearLayout>
 
                     <TextView
@@ -1022,7 +1022,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="TextView"
+                        android:text="Piyush Jain"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -1032,7 +1032,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="TextView"
+                        android:text="General"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -1047,7 +1047,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call11"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -1104,7 +1104,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/me" />
+                            android:src="@drawable/subranshu" />
                     </LinearLayout>
 
                     <TextView
@@ -1114,7 +1114,7 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="TextView"
+                        android:text="Subhranshu Mohanty"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
@@ -1124,7 +1124,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="TextView"
+                        android:text="General"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -1139,7 +1139,7 @@
                         android:paddingTop="22dp">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/call12"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
