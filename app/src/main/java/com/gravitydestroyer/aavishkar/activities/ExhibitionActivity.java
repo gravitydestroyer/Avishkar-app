@@ -34,11 +34,11 @@ public class ExhibitionActivity extends AppCompatActivity {
         mViewPager = (ViewPager)findViewById(R.id.viewPager);
 
         mCardAdapter = new CardPagerAdapter();
-        mCardAdapter.addCardItem(new CardItem(R.drawable.armyshow,R.string.title_1, R.string.text1));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.ensig,R.string.title_2, R.string.text2));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.stunts,R.string.title_3, R.string.text3));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.enzffsht,R.string.title_4,R.string.text4));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.autoexp,R.string.title_4, R.string.text5));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.armyv, R.string.text1));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.ensign, R.string.text2));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.cycle, R.string.text3));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.entz,R.string.text4));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.autoexpo, R.string.text5));
 
         mCardShadowTransformer = new ShadowTransformer(mViewPager, mCardAdapter);
 

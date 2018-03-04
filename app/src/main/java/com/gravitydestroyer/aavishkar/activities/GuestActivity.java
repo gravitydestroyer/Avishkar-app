@@ -28,11 +28,11 @@ public class GuestActivity extends AppCompatActivity {
         mViewPager = (ViewPager)findViewById(R.id.viewPager);
 
         mCardAdapter = new CardPagerAdapter();
-        mCardAdapter.addCardItem(new CardItem(R.drawable.vaishali,R.string.title_4, R.string.text_1));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.anurag,R.string.title_2, R.string.text_2));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.sabyasachi,R.string.title_3, R.string.text_3));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.ashok, R.string.title_4,R.string.text_4));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.ajee,R.string.title_4, R.string.text_5));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.vaishali, R.string.text_1));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.anurag,R.string.text_2));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.sabya, R.string.text_3));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.ashok,R.string.text_4));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.ajee,R.string.text_5));
 
         mCardShadowTransformer = new ShadowTransformer(mViewPager, mCardAdapter);
 

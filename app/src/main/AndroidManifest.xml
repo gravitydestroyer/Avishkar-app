@@ -95,7 +95,7 @@
             android:theme="@style/AppCompat.NoActionBar" />
         <activity
             android:name=".Schedule"
-            android:label="@string/title_activity_schedule"
+            android:label="@string/schedule"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activities.WorkshopActivity" />
         <activity android:name=".activities.OnlineActivity" />

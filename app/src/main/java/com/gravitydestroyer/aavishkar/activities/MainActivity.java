@@ -73,7 +73,7 @@ public class MainActivity extends BaseActivity {
                 .withActivity(this)
                 .withHeaderBackground(R.drawable.spacex2)
                 .addProfiles(
-                        new ProfileDrawerItem().withName("Avishkar 2018").withEmail("avskr.in").withIcon(getResources().getDrawable(R.drawable.avishkar_ico_round))
+                        new ProfileDrawerItem().withName("Aavishkar 2018").withEmail("avskr.in").withIcon(getResources().getDrawable(R.drawable.avishkar_ico_round))
                 )
                 .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override
@@ -95,7 +95,9 @@ public class MainActivity extends BaseActivity {
         PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Sponsors");
         PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Map");
         PrimaryDrawerItem item10 = new PrimaryDrawerItem().withIdentifier(10).withName("Contacts");
-        PrimaryDrawerItem item11= new PrimaryDrawerItem().withIdentifier(11).withName("Visit Our Website");
+        PrimaryDrawerItem item11= new PrimaryDrawerItem().withIdentifier(11).withName("Aavishkar Coins");
+        PrimaryDrawerItem item12= new PrimaryDrawerItem().withIdentifier(12).withName("Contributors");
+
 
 
 
@@ -117,7 +119,8 @@ public class MainActivity extends BaseActivity {
                         item8,
                         item9,
                         item10,
-                        item11
+                        item11,
+                        item12
 
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
@@ -166,6 +169,10 @@ public class MainActivity extends BaseActivity {
                             case 11:
                                 Intent avish=new Intent(MainActivity.this,WebsiteActivity.class);
                                 startActivity(avish);
+                                break;
+                            case 12:
+                                Intent contri=new Intent(MainActivity.this,ContributorsActivity.class);
+                                startActivity(contri);
                                 break;
 
 

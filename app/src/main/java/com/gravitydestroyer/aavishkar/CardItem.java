@@ -7,20 +7,16 @@ package com.gravitydestroyer.aavishkar;
 public class CardItem {
 
     private int mTextResource;
-    private int mtexttitle;
     private int mImageResource;
 
-    public CardItem(int image, int text1, int text2) {
+    public CardItem(int image, int text) {
         mImageResource = image;
-        mtexttitle=text1;
-        mTextResource = text2;
+        mTextResource = text;
     }
 
     public int getText() {
         return mTextResource;
     }
-
-    public int getText2() { return mtexttitle;}
 
     public int getImage() {
         return mImageResource;
