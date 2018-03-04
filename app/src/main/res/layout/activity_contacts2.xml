@@ -99,14 +99,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb1"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb1"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -191,14 +191,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb2"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb2"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -290,14 +290,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb3"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb3"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -382,14 +382,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb4"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb4"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -481,14 +481,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb5"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb5"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -573,14 +573,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb6"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb6"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -672,14 +672,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb7"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb7"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -764,14 +764,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb8"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb8"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -863,14 +863,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb9"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb9"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -955,14 +955,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb10"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb10"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -1054,14 +1054,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb11"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb11"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -1146,14 +1146,14 @@
                             app:srcCompat="@drawable/callicon" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/wb12"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/whatsappicon" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/fb12"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
