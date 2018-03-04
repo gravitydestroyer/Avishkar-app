@@ -23,8 +23,7 @@ public class WorkshopActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_workshop);
-        ActionBar actionBar=getSupportActionBar();
-        actionBar.hide();
+
 
         Window window = this.getWindow();
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);

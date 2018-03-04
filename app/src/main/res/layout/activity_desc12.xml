@@ -35,18 +35,7 @@
             android:textColor="@android:color/white"
             android:textSize="15sp" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:onClick="urlopen"
-            android:paddingBottom="20dp"
-            android:paddingTop="25dp"
-            android:text="Link to event"
-            android:textColor="@android:color/white"
-            android:textSize="15sp" />
+
 
         <LinearLayout
             android:layout_width="match_parent"

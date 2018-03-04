@@ -86,8 +86,8 @@ public class MainActivity extends BaseActivity {
 
         //Now create your
         PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("Home");
-        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("OfflineEvents");
-        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("OnlineEvents");
+        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Offline Events");
+        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("Online Events");
         PrimaryDrawerItem item4 = new PrimaryDrawerItem().withIdentifier(4).withName("Workshops");
         PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Exhibitions");
         PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Guest and Keynote Speeches");

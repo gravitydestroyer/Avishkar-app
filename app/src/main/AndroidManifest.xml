@@ -104,7 +104,6 @@
         <activity android:name=".activities.GuestActivity" />
         <activity android:name=".activities.SponsorActivity" />
         <activity android:name=".activities.MapActivity" />
-        <activity android:name=".activities.ContactsActivity2" />
         <activity android:name=".activities.WebsiteActivity" />
         <activity android:name=".activities.ContactActivity" />
         <activity android:name=".activities.desc1" />
