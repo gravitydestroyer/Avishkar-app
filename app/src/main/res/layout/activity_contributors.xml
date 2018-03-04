@@ -88,7 +88,7 @@
                             android:layout_height="80dp"
                             android:layout_weight="1"
                             android:minHeight="0dp"
-                            android:src="@drawable/aritra" />
+                            android:src="@mipmap/aritra" />
                     </LinearLayout>
 
                     <TextView
@@ -146,7 +146,7 @@
                         android:layout_height="80dp"
                         android:layout_weight="1"
                         android:minHeight="0dp"
-                        android:src="@drawable/arpan" />
+                        android:src="@mipmap/arpan" />
                 </LinearLayout>
 
                 <TextView
@@ -203,7 +203,63 @@
                         android:layout_height="80dp"
                         android:layout_weight="1"
                         android:minHeight="0dp"
-                        android:src="@drawable/shreyashee2" />
+                        android:src="@mipmap/devansh" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="Devansh Goenka"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/devanshgoenka97"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad11"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/shreyashee2" />
                 </LinearLayout>
 
                 <TextView
@@ -259,7 +315,7 @@
                         android:layout_height="80dp"
                         android:layout_weight="1"
                         android:minHeight="0dp"
-                        android:src="@drawable/jayjeet" />
+                        android:src="@mipmap/jayjeet" />
                 </LinearLayout>
 
                 <TextView
@@ -355,7 +411,7 @@
                         android:layout_height="80dp"
                         android:layout_weight="1"
                         android:minHeight="0dp"
-                        android:src="@drawable/aritra" />
+                        android:src="@mipmap/sneha" />
                 </LinearLayout>
 
                 <TextView
@@ -373,7 +429,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical|center_horizontal"
                     android:minHeight="0dp"
-                    android:text="github.com/gravitydestroyer"
+                    android:text="github.com/snehasingh95"
                     android:textColor="@android:color/background_light"
                     android:textSize="13sp" />
 
@@ -413,7 +469,7 @@
                         android:layout_height="80dp"
                         android:layout_weight="1"
                         android:minHeight="0dp"
-                        android:src="@drawable/arnav" />
+                        android:src="@mipmap/arnav" />
                 </LinearLayout>
 
                 <TextView
@@ -470,7 +526,7 @@
                         android:layout_height="80dp"
                         android:layout_weight="1"
                         android:minHeight="0dp"
-                        android:src="@drawable/shyamali" />
+                        android:src="@mipmap/shyamali" />
                 </LinearLayout>
 
                 <TextView
@@ -526,7 +582,7 @@
                         android:layout_height="80dp"
                         android:layout_weight="1"
                         android:minHeight="0dp"
-                        android:src="@drawable/vartika" />
+                        android:src="@mipmap/vartika" />
                 </LinearLayout>
 
                 <TextView
