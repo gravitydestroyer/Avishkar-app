@@ -7,6 +7,7 @@
     android:gravity="center"
     android:padding="30dp">
 
+
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
@@ -27,8 +28,10 @@
             android:id="@+id/preview_text"
             android:gravity="center"
             android:textSize="20sp"
-            android:textColor="#D3D3D3"
+            android:textColor="#C70F41"
             android:fontFamily="sans-serif-light"/>
     </LinearLayout>
+
+
 
 </LinearLayout>

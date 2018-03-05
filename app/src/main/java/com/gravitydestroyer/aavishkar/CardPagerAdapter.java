@@ -78,6 +78,7 @@ public class CardPagerAdapter extends PagerAdapter implements CardAdapter {
         TextView contentTextView = (TextView) view.findViewById(R.id.contentTextView);
         titleImageView.setImageResource(item.getImage());
         contentTextView.setText(item.getText());
+
     }
 
 }

@@ -10,12 +10,11 @@ import com.gravitydestroyer.aavishkar.CardPagerAdapter;
 import com.gravitydestroyer.aavishkar.R;
 import com.gravitydestroyer.aavishkar.ShadowTransformer;
 
-import android.widget.Button;
+
 
 
 public class GuestActivity extends AppCompatActivity {
 
-    private Button mButton;
     private ViewPager mViewPager;
 
     private CardPagerAdapter mCardAdapter;
@@ -29,10 +28,11 @@ public class GuestActivity extends AppCompatActivity {
         mViewPager = (ViewPager)findViewById(R.id.viewPager);
 
         mCardAdapter = new CardPagerAdapter();
-        mCardAdapter.addCardItem(new CardItem(R.drawable.material, R.string.text_1));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.material, R.string.text_2));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.material, R.string.text_3));
-        mCardAdapter.addCardItem(new CardItem(R.drawable.material, R.string.text_4));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.vaishali, R.string.text_1));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.anurag,R.string.text_2));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.sabya, R.string.text_3));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.ashok,R.string.text_4));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.ajee,R.string.text_5));
 
         mCardShadowTransformer = new ShadowTransformer(mViewPager, mCardAdapter);
 

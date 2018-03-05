@@ -16,7 +16,7 @@ public class SplashScreenActivity extends Activity {
         try {
             VideoView videoHolder = new VideoView(this);
             setContentView(videoHolder);
-            Uri video = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.splash);
+            Uri video = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.splash1);
             videoHolder.setVideoURI(video);
 
             videoHolder.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {

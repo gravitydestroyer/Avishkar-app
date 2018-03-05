@@ -1,24 +1,619 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gravitydestroyer.aavishkar.activities.ContributorsActivity"
     android:layout_marginLeft="3dp"
     android:layout_marginRight="3dp"
-    android:layout_marginTop="2dp">
-
+    android:layout_marginTop="2dp"
+    android:layout_weight="1"
+    android:paddingBottom="5dp"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="50dp"
-            android:layout_height="80dp"
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
             android:layout_weight="1"
-            android:minHeight="0dp" />
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad6"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="0dp"
+                    android:text="CORE DEVELOPER'S TEAM"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/grad10"
+                android:minHeight="2dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/grad11"
+                    android:minHeight="1dp"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="50dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:minHeight="0dp"
+                            android:src="@mipmap/aritra" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:minHeight="0dp"
+                        android:paddingTop="8dp"
+                        android:text="@string/aritra"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:minHeight="0dp"
+                        android:text="github.com/gravitydestroyer"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad6"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/circleImageView"
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/arpan" />
+                </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/arpan"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/dungarpan"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad11"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/devansh" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="Devansh Goenka"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/devanshgoenka97"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad11"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/shreyashee2" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="Shreyashee Sinha"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/ShreyasheeS"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad11"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/jayjeet" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="Jayjeet Chakraborty"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/JayjeetAtGithub"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad6"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="0dp"
+                    android:text="OTHER CONTRIBUTORS"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad11"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/sneha" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="Sneha Singh"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/snehasingh95"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad6"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/circleImageView"
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/arnav" />
+                </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="Arnav"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/arnav-amb"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad11"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/shyamali" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="Shyamali Murmu"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/xxShyamalixx"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/grad10"
+            android:minHeight="2dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad11"
+                android:minHeight="1dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:minHeight="0dp"
+                        android:src="@mipmap/vartika" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:paddingTop="8dp"
+                    android:text="Vartika Arora"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="0dp"
+                    android:text="github.com/vartika-arora"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
     </LinearLayout>
 
+
 </ScrollView>
+

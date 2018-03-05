@@ -40,7 +40,7 @@ public class KittenGridAdapter extends RecyclerView.Adapter<KittenViewHolder> {
 
             case 0:
                 viewHolder.image.setImageResource(R.drawable.analyt);
-                viewHolder.preview_text.setText("Data Analytics.");
+                viewHolder.preview_text.setText("Data Analytics");
                 break;
             case 1:
                 viewHolder.image.setImageResource(R.drawable.ethhck);

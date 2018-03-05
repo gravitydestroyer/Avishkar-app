@@ -15,7 +15,7 @@ public class WebsiteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_website);
         WebView webb=(WebView)findViewById(R.id.avishweb);
         webb.setWebViewClient(new WebViewClient());
-        webb.loadUrl("http://www.avskr.in/");
+        webb.loadUrl("http://avskr-coins.herokuapp.com/");
         webb.getSettings().setJavaScriptEnabled(true);
         webb.getSettings().setSupportZoom(true);
         webb.getSettings().setBuiltInZoomControls(true);

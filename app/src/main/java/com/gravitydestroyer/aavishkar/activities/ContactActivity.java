@@ -19,14 +19,21 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
 
 
     ImageView cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb10, cb11, cb12;
+<<<<<<< HEAD
     ImageView fb1, fb2, fb3, fb4, fb5, fb6, fb7, fb8, fb9, fb10, fb11, fb12;
     ImageView wb1, wb2, wb3, wb4, wb5, wb6, wb7, wb8, wb9, wb10, wb11, wb12;
+=======
+>>>>>>> 757b47e46d4f9c97f6ac22facfb69fcd37b571df
     private static final int REQUEST_CALL = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_contacts2);
+=======
+        setContentView(R.layout.activity_contact);
+>>>>>>> 757b47e46d4f9c97f6ac22facfb69fcd37b571df
 
         ActivityCompat.requestPermissions(this,new String[] {Manifest.permission.CALL_PHONE},REQUEST_CALL);
 
@@ -43,6 +50,7 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
         cb11 = (ImageView) findViewById(R.id.call11);
         cb12 = (ImageView) findViewById(R.id.call12);
 
+<<<<<<< HEAD
         wb1 = (ImageView) findViewById(R.id.wb1);
         wb2 = (ImageView) findViewById(R.id.wb2);
         wb3 = (ImageView) findViewById(R.id.wb3);
@@ -72,6 +80,8 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
 
 
 
+=======
+>>>>>>> 757b47e46d4f9c97f6ac22facfb69fcd37b571df
         cb1.setOnClickListener(this);
         cb2.setOnClickListener(this);
         cb3.setOnClickListener(this);
@@ -85,6 +95,7 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
         cb11.setOnClickListener(this);
         cb12.setOnClickListener(this);
 
+<<<<<<< HEAD
         wb1.setOnClickListener(this);
         wb2.setOnClickListener(this);
         wb3.setOnClickListener(this);
@@ -111,6 +122,8 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
         fb11.setOnClickListener(this);
         fb12.setOnClickListener(this);
 
+=======
+>>>>>>> 757b47e46d4f9c97f6ac22facfb69fcd37b571df
 
     }
 
@@ -228,6 +241,7 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
                 startActivity(cintent12);
                 break;
 
+<<<<<<< HEAD
             case R.id.wb1:
                 Intent wintent1 = new Intent(Intent.ACTION_DIAL,Uri.parse("tel:+917278270313"));
 
@@ -438,6 +452,8 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
 
 
 
+=======
+>>>>>>> 757b47e46d4f9c97f6ac22facfb69fcd37b571df
         }
     }
 }

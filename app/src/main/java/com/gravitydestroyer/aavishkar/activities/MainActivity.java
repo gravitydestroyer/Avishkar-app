@@ -73,7 +73,7 @@ public class MainActivity extends BaseActivity {
                 .withActivity(this)
                 .withHeaderBackground(R.drawable.spacex2)
                 .addProfiles(
-                        new ProfileDrawerItem().withName("Avishkar 2018").withEmail("avskr.in").withIcon(getResources().getDrawable(R.drawable.avishkar_ico_round))
+                        new ProfileDrawerItem().withName("Aavishkar 2018").withEmail("avskr.in").withIcon(getResources().getDrawable(R.drawable.avishkar_ico_round))
                 )
                 .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override
@@ -86,15 +86,18 @@ public class MainActivity extends BaseActivity {
 
         //Now create your
         PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("Home");
-        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("OfflineEvents");
-        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("OnlineEvents");
-        PrimaryDrawerItem item4 = new PrimaryDrawerItem().withIdentifier(4).withName("Workshops and Exhibitions");
-        PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Guest and Keynote Speeches");
-        PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Schedule");
-        PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("Sponsors");
-        PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Map");
-        PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Contacts");
-        PrimaryDrawerItem item10= new PrimaryDrawerItem().withIdentifier(10).withName("Visit Our Website");
+        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Offline Events");
+        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("Online Events");
+        PrimaryDrawerItem item4 = new PrimaryDrawerItem().withIdentifier(4).withName("Workshops");
+        PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Exhibitions");
+        PrimaryDrawerItem item6 = new PrimaryDrawerItem().withIdentifier(6).withName("Guest and Keynote Speeches");
+        PrimaryDrawerItem item7 = new PrimaryDrawerItem().withIdentifier(7).withName("Schedule");
+        PrimaryDrawerItem item8 = new PrimaryDrawerItem().withIdentifier(8).withName("Sponsors");
+        PrimaryDrawerItem item9 = new PrimaryDrawerItem().withIdentifier(9).withName("Map");
+        PrimaryDrawerItem item10 = new PrimaryDrawerItem().withIdentifier(10).withName("Contacts");
+        PrimaryDrawerItem item11= new PrimaryDrawerItem().withIdentifier(11).withName("Aavishkar Coins");
+        PrimaryDrawerItem item12= new PrimaryDrawerItem().withIdentifier(12).withName("Contributors");
+
 
 
 
@@ -115,7 +118,9 @@ public class MainActivity extends BaseActivity {
                         item7,
                         item8,
                         item9,
-                        item10
+                        item10,
+                        item11,
+                        item12
 
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
@@ -138,29 +143,39 @@ public class MainActivity extends BaseActivity {
                                 startActivity(work);
                                 break;
                             case 5:
-                                Intent exhi=new Intent(MainActivity.this,GuestActivity.class);
+                                Intent exhi=new Intent(MainActivity.this,ExhibitionActivity.class);
                                 startActivity(exhi);
                                 break;
                             case 6:
+                                Intent guest=new Intent(MainActivity.this,GuestActivity.class);
+                                startActivity(guest);
+                                break;
+                            case 7:
                                 Intent sch=new Intent(MainActivity.this, Schedule.class);
                                 startActivity(sch);
                                 break;
-                            case 7:
+                            case 8:
                                 Intent spon=new Intent(MainActivity.this,SponsorActivity.class);
                                 startActivity(spon);
                                 break;
-                            case 8:
+                            case 9:
                                 Intent map=new Intent(MainActivity.this,MapActivity.class);
                                 startActivity(map);
                                 break;
-                            case 9:
+                            case 10:
                                 Intent con=new Intent(MainActivity.this,ContactActivity.class);
                                 startActivity(con);
                                 break;
-                            case 10:
+                            case 11:
                                 Intent avish=new Intent(MainActivity.this,WebsiteActivity.class);
                                 startActivity(avish);
                                 break;
+                            case 12:
+                                Intent contri=new Intent(MainActivity.this,ContributorsActivity.class);
+                                startActivity(contri);
+                                break;
+
+
 
                         }return true;
                     }

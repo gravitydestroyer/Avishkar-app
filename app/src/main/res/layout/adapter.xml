@@ -14,23 +14,33 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="24dp">
+
+            >
 
             <ImageView
                 android:id="@+id/titleImageView"
-                style="@style/TextAppearance.AppCompat.Title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
 
+             <ScrollView
+                 android:layout_width="match_parent"
+                 android:paddingLeft="5dp"
+                 android:paddingRight="5dp"
+                 android:layout_height="match_parent">
             <TextView
                 android:id="@+id/contentTextView"
                 style="@style/TextAppearance.AppCompat.Body1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"/>
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="#81000000"/>
+             </ScrollView>
 
         </LinearLayout>
 

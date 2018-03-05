@@ -18,18 +18,12 @@ public class desc2 extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
         startActivity(intent);
     }
-    public void urlopen(View v) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("https://www.google.co.in/"));
-        startActivity(intent);
-    }
+
     public void fbopen(View v) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("https://www.facebook.com/"));
+        intent.setData(Uri.parse("https://www.facebook.com/aavishkar.nitd/"));
         startActivity(intent);
     }
     @Override
