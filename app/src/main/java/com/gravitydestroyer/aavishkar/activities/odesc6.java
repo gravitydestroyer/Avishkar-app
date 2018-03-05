@@ -11,5 +11,6 @@ public class odesc6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_odesc6);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

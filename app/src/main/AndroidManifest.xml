@@ -12,7 +12,6 @@
     <uses-permission android:name="android.permission.READ_LOGS" />
     <uses-permission android:name="android.permission.CAMERA" />
 
-
     <application
         android:name=".Application"
         android:allowBackup="true"
@@ -37,7 +36,8 @@
         <activity
             android:name=".activities.MainActivity"
             android:configChanges="orientation|screenSize"
-            android:theme="@style/AppCompat.NoActionBar" />
+            android:theme="@style/AppCompat.NoActionBar"
+            android:launchMode="singleTop" />
         <activity
             android:name=".activities.PostDetailsActivity"
             android:configChanges="orientation|screenSize"
@@ -93,20 +93,39 @@
 
         <activity
             android:name=".WelcomeActivity"
-            android:theme="@style/AppCompat.NoActionBar" />
+            android:theme="@style/AppCompat.NoActionBar"
+            android:parentActivityName=".activities.MainActivity"/>
         <activity
             android:name=".Schedule"
             android:label="@string/schedule"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activities.WorkshopActivity" />
-        <activity android:name=".activities.OnlineActivity" />
-        <activity android:name=".activities.OfflineActivity" />
-        <activity android:name=".activities.ContributorsActivity" />
-        <activity android:name=".activities.GuestActivity" />
-        <activity android:name=".activities.SponsorActivity" />
-        <activity android:name=".activities.MapActivity" />
-        <activity android:name=".activities.WebsiteActivity" />
-        <activity android:name=".activities.ContactActivity" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity
+            android:name=".activities.WorkshopActivity"
+            android:label="Schedule"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity
+            android:name=".activities.OnlineActivity"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity
+            android:name=".activities.OfflineActivity"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity
+            android:parentActivityName=".activities.MainActivity"
+            android:name=".activities.ContributorsActivity"/>
+        <activity
+            android:name=".activities.GuestActivity"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity
+            android:name=".activities.SponsorActivity"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity
+            android:name=".activities.MapActivity"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.WebsiteActivity"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.ContactActivity"
+            android:parentActivityName=".activities.MainActivity"/>
         <activity android:name=".activities.desc1" />
         <activity android:name=".activities.desc2" />
         <activity android:name=".activities.desc3" />
@@ -138,7 +157,8 @@
         <activity android:name=".activities.odesc6" />
         <activity android:name=".activities.odesc7" />
         <activity android:name=".activities.odesc8" />
-        <activity android:name=".activities.ExhibitionActivity"></activity>
+        <activity android:name=".activities.ExhibitionActivity"
+            android:parentActivityName=".activities.MainActivity"/>
     </application>
 
 </manifest>

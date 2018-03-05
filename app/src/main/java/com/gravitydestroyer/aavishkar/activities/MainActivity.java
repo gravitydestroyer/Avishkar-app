@@ -43,6 +43,8 @@ import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
+import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
+import com.mikepenz.materialdrawer.model.SectionDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 
@@ -83,10 +85,8 @@ public class MainActivity extends BaseActivity {
                 })
                 .build();
 
-
         //Now create your
         PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName("Home");
-        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName("Offline Events");
         PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName("Online Events");
         PrimaryDrawerItem item4 = new PrimaryDrawerItem().withIdentifier(4).withName("Workshops");
         PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName("Exhibitions");
@@ -99,9 +99,6 @@ public class MainActivity extends BaseActivity {
         PrimaryDrawerItem item12= new PrimaryDrawerItem().withIdentifier(12).withName("Contributors");
 
 
-
-
-
 //create the drawer and remember the `Drawer` result object
         Drawer result = new DrawerBuilder()
                 .withActivity(this)
@@ -109,26 +106,28 @@ public class MainActivity extends BaseActivity {
 
                 .withToolbar(toolbar)
                 .addDrawerItems(
-                        item1,
-                        item2,
-                        item3,
-                        item4,
-                        item5,
-                        item6,
-                        item7,
-                        item8,
-                        item9,
-                        item10,
-                        item11,
-                        item12
-
+                        new PrimaryDrawerItem().withIdentifier(1).withName("Home").withIcon(R.drawable.ic_home_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(11).withName("Eurekoin").withIcon(R.drawable.ic_attach_money_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(7).withName("Schedule").withIcon(R.drawable.ic_schedule_black_24dp),
+                        new SectionDrawerItem().withName("Events"),
+                        new PrimaryDrawerItem().withIdentifier(2).withName("On-site Events").withIcon(R.drawable.ic_event_note_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(3).withName("Online Events").withIcon(R.drawable.ic_event_available_black_24dp),
+                        new SectionDrawerItem().withName("Attractions"),
+                        new PrimaryDrawerItem().withIdentifier(4).withName("Workshops").withIcon(R.drawable.ic_build_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(5).withName("Exhibitions").withIcon(R.drawable.ic_star_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(6).withName("Aavishkar Ignitia").withIcon(R.drawable.ic_mic_black_24dp),
+                        new SectionDrawerItem().withName("About Aavishkar"),
+                        new PrimaryDrawerItem().withIdentifier(8).withName("Our Partners").withIcon(R.drawable.ic_business_center_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(9).withName("Map").withIcon(R.drawable.ic_map_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(10).withName("Contact").withIcon(R.drawable.ic_people_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(12).withName("Contributors").withIcon(R.drawable.ic_loyalty_black_24dp)
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
                         // do something with the clicked item :D
 
-                        switch (position) {
+                        switch ((int)drawerItem.getIdentifier()) {
 
                             case 2:
                                 Intent off=new Intent(MainActivity.this,OfflineActivity.class);

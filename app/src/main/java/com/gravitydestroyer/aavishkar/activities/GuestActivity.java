@@ -25,6 +25,7 @@ public class GuestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guest);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mViewPager = (ViewPager)findViewById(R.id.viewPager);
 
         mCardAdapter = new CardPagerAdapter();

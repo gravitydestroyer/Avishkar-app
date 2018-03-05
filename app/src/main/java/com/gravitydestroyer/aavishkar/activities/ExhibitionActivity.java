@@ -31,6 +31,7 @@ public class ExhibitionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exhibition);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mViewPager = (ViewPager)findViewById(R.id.viewPager);
 
         mCardAdapter = new CardPagerAdapter();

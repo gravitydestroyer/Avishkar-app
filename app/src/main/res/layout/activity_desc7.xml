@@ -53,7 +53,7 @@
                 android:layout_weight="1"
                 android:onClick="fbopen"
                 android:paddingBottom="5dp"
-                app:srcCompat="@drawable/fbicon" />
+                app:srcCompat="@drawable/face_logo" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -61,7 +61,7 @@
                 android:layout_height="40dp"
                 android:layout_weight="1"
                 android:onClick="phoneopen"
-                app:srcCompat="@drawable/callicon" />
+                app:srcCompat="@drawable/ic_local_phone_black_24dp" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
