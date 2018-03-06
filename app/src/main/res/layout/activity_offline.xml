@@ -735,7 +735,7 @@
                         android:gravity="center_vertical"
                         android:paddingBottom="10dp"
                         android:paddingLeft="0dp"
-                        android:text="DARWINIA"
+                        android:text="REChase"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
@@ -745,7 +745,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_weight="0"
-                        android:text="He who fights to fit, will survive to succeed."
+                        android:text="Rechase:The Treasure Hunt"
                         android:textColor="@android:color/white"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -756,7 +756,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
                     android:layout_weight="3"
-                    app:srcCompat="@drawable/darwiniao" />
+                    app:srcCompat="@drawable/recoff" />
 
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -1190,7 +1190,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
                     android:layout_weight="3"
-                    app:srcCompat="@drawable/junkyarddb" />
+                    app:srcCompat="@drawable/junk" />
 
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -1314,7 +1314,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
                     android:layout_weight="3"
-                    app:srcCompat="@drawable/apocalypsep" />
+                    app:srcCompat="@drawable/apocal" />
 
             </LinearLayout>
         </android.support.v7.widget.CardView>

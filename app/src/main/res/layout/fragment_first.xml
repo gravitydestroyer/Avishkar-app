@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="2dp"
         android:orientation="vertical"
-        android:paddingBottom="5dp"
+        android:paddingBottom="40dp"
         android:paddingTop="10dp">
 
         <LinearLayout
@@ -99,6 +99,7 @@
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="75dp"
@@ -183,6 +184,7 @@
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="75dp"

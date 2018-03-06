@@ -47,10 +47,13 @@ public class OnlineActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),odesc8.class);
         startActivity(intent);
     }
+    public void todesc6(View view){
+        Intent intent = new Intent(getApplicationContext(),odesc6.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_online);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

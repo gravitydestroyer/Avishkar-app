@@ -34,16 +34,16 @@
     <color name="button_pressed_text_color">#bcbcbc</color>
 
     <!-- dots inactive colors -->
-    <color name="dot_dark_screen1">#C70F41</color>
-    <color name="dot_dark_screen2">#C70F41</color>
-    <color name="dot_dark_screen3">#C70F41</color>
-    <color name="dot_dark_screen4">#C70F41</color>
+    <color name="dot_dark_screen1">#D4AC0D</color>
+    <color name="dot_dark_screen2">#D4AC0D</color>
+    <color name="dot_dark_screen3">#D4AC0D</color>
+    <color name="dot_dark_screen4">#D4AC0D</color>
 
     <!-- dots active colors -->
-    <color name="dot_light_screen1">#F05781</color>
-    <color name="dot_light_screen2">#F05781</color>
-    <color name="dot_light_screen3">#F05781</color>
-    <color name="dot_light_screen4">#F05781</color>
+    <color name="dot_light_screen1">#FFE167</color>
+    <color name="dot_light_screen2">#FFE167</color>
+    <color name="dot_light_screen3">#FFE167</color>
+    <color name="dot_light_screen4">#FFE167</color>
 
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>

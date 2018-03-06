@@ -41,7 +41,8 @@ public class ExhibitionActivity extends AppCompatActivity {
         mCardAdapter.addCardItem(new CardItem(R.drawable.entz,R.string.text4));
         mCardAdapter.addCardItem(new CardItem(R.drawable.autoexpo, R.string.text5));
         mCardAdapter.addCardItem(new CardItem(R.drawable.strokes, R.string.text6));
-
+        mCardAdapter.addCardItem(new CardItem(R.drawable.meltdown, R.string.meltdown));
+        mCardAdapter.addCardItem(new CardItem(R.drawable.fussball, R.string.fussball));
         mCardShadowTransformer = new ShadowTransformer(mViewPager, mCardAdapter);
 
 

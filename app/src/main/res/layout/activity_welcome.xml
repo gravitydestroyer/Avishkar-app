@@ -34,7 +34,7 @@
         android:layout_alignParentRight="true"
         android:background="@null"
         android:text="@string/next"
-        android:textColor="@color/material_drawer_primary" />
+        android:textColor="@color/dot_dark_screen1" />
 
     <Button
         android:id="@+id/btn_skip"
@@ -44,7 +44,7 @@
         android:layout_alignParentLeft="true"
         android:background="@null"
         android:text="@string/skip"
-        android:textColor="@color/material_drawer_primary" />
+        android:textColor="@color/dot_dark_screen1" />
 
 
 </RelativeLayout>
