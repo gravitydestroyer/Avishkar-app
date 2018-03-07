@@ -14,7 +14,7 @@ import android.view.View;
 public class desc12 extends AppCompatActivity {
 
     public void phoneopen(View view){
-        String phone = "9051523625";
+        String phone = "9475616155";
         Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
         startActivity(intent);
     }
