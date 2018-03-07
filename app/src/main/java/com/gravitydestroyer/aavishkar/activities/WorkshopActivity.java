@@ -23,6 +23,7 @@ public class WorkshopActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_workshop);
+        setTitle("Workshops");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Window window = this.getWindow();

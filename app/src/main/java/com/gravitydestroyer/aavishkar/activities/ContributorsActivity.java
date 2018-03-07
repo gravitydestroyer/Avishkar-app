@@ -11,5 +11,6 @@ public class ContributorsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contributors);
+        setTitle("Our Team");
     }
 }

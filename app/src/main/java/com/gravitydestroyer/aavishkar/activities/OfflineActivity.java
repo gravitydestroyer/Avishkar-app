@@ -101,5 +101,7 @@ public class OfflineActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_offline);
+        setTitle("On-Site Events");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

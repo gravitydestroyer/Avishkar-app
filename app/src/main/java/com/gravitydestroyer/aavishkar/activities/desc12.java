@@ -30,5 +30,6 @@ public class desc12 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_desc12);
+        setTitle("REChase");
     }
 }

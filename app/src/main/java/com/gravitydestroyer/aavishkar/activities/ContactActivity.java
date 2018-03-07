@@ -30,6 +30,8 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_contact);
+        setTitle("Contact Us");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ActivityCompat.requestPermissions(this,new String[] {Manifest.permission.CALL_PHONE},REQUEST_CALL);
 

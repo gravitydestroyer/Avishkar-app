@@ -116,7 +116,7 @@ public class MainActivity extends BaseActivity {
                         new PrimaryDrawerItem().withIdentifier(4).withName("Workshops").withIcon(R.drawable.ic_build_black_24dp),
                         new PrimaryDrawerItem().withIdentifier(5).withName("Exhibitions and Games").withIcon(R.drawable.ic_star_black_24dp),
                         new PrimaryDrawerItem().withIdentifier(6).withName("Aavishkar Ignitia").withIcon(R.drawable.ic_mic_black_24dp),
-                        new SectionDrawerItem().withName("About Aavishkar"),
+                        new SectionDrawerItem().withName("About Us"),
                         new PrimaryDrawerItem().withIdentifier(8).withName("Our Partners").withIcon(R.drawable.ic_business_center_black_24dp),
                         new PrimaryDrawerItem().withIdentifier(9).withName("Map").withIcon(R.drawable.ic_map_black_24dp),
                         new PrimaryDrawerItem().withIdentifier(10).withName("Contact").withIcon(R.drawable.ic_people_black_24dp),

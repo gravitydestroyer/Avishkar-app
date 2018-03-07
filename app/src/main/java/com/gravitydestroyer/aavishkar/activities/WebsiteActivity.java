@@ -13,6 +13,7 @@ public class WebsiteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_website);
+        setTitle("Eurekoin");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         WebView webb=(WebView)findViewById(R.id.avishweb);

@@ -11,5 +11,7 @@ public class SponsorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sponsor);
+        setTitle("Our Partners");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
