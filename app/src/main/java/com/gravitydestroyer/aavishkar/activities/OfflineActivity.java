@@ -60,10 +60,7 @@ public class OfflineActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),desc13.class);
         startActivity(intent);
     }
-    public void todesc14(View view){
-        Intent intent = new Intent(getApplicationContext(),desc14.class);
-        startActivity(intent);
-    }
+
     public void todesc15(View view){
         Intent intent = new Intent(getApplicationContext(),desc15.class);
         startActivity(intent);

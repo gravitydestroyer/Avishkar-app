@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:fillViewport="true"
     android:layout_height="match_parent"
-    tools:context="com.gravitydestroyer.aavishkar.activities.desc14">
+    tools:context="com.gravitydestroyer.aavishkar.activities.odesc9">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,7 +34,18 @@
             android:text="Built on ROR, this is the only Open Source Online Judge build by GLUG Members in Eastern India.It is used to promote competitive programming which attracts maximum participation from all around the world. Around 45 countries participate, thus helping our college students to taste the competition from across the globe. Put your problem-solving skills and brains to the test as you get the chance to win exciting prices and goodies."
             android:textColor="@android:color/white"
             android:textSize="15sp" />
-
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="urlopen"
+            android:paddingBottom="20dp"
+            android:paddingTop="25dp"
+            android:text="Link to event"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -51,6 +51,10 @@ public class OnlineActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),odesc6.class);
         startActivity(intent);
     }
+    public void todesc9(View view){
+        Intent intent = new Intent(getApplicationContext(),odesc9.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

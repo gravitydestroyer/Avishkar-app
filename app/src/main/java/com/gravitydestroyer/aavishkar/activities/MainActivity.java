@@ -120,7 +120,8 @@ public class MainActivity extends BaseActivity {
                         new PrimaryDrawerItem().withIdentifier(8).withName("Our Partners").withIcon(R.drawable.ic_business_center_black_24dp),
                         new PrimaryDrawerItem().withIdentifier(9).withName("Map").withIcon(R.drawable.ic_map_black_24dp),
                         new PrimaryDrawerItem().withIdentifier(10).withName("Contact").withIcon(R.drawable.ic_people_black_24dp),
-                        new PrimaryDrawerItem().withIdentifier(12).withName("Contributors").withIcon(R.drawable.ic_loyalty_black_24dp)
+                        new PrimaryDrawerItem().withIdentifier(12).withName("Contributors").withIcon(R.drawable.ic_loyalty_black_24dp),
+                        new PrimaryDrawerItem().withIdentifier(13).withName("About Aavishkar").withIcon(R.drawable.ic_account_circle_black_24dp)
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
@@ -173,6 +174,12 @@ public class MainActivity extends BaseActivity {
                                 Intent contri=new Intent(MainActivity.this,ContributorsActivity.class);
                                 startActivity(contri);
                                 break;
+
+                            case 13:
+                                Intent about=new Intent(MainActivity.this,AboutActivity.class);
+                                startActivity(about);
+                                break;
+
 
 
 

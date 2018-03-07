@@ -1,14 +1,15 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gravitydestroyer.aavishkar.activities.MapActivity">
+    tools:context="com.gravitydestroyer.aavishkar.activities.AboutActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/nitmap"/>
+        android:adjustViewBounds="true"
+        android:src="@drawable/about" />
 
-
-</RelativeLayout>
+</ScrollView>
