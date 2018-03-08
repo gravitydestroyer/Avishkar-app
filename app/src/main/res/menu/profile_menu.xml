@@ -14,10 +14,10 @@
         app:showAsAction="never"
         android:orderInCategory="20" />
 
-    <item
-        android:id="@+id/createPost"
-        android:title="@string/create_post_full_menu_label"
-        app:showAsAction="never"
-        android:orderInCategory="10" />
+    <!--<item-->
+        <!--android:id="@+id/createPost"-->
+        <!--android:title="@string/create_post_full_menu_label"-->
+        <!--app:showAsAction="never"-->
+        <!--android:orderInCategory="10" />-->
 </menu>
 

@@ -278,20 +278,20 @@ public class MainActivity extends BaseActivity {
 
     private void initContentView() {
         if (recyclerView == null) {
-            floatingActionButton = (FloatingActionButton) findViewById(R.id.addNewPostFab);
-
-            if (floatingActionButton != null) {
-                floatingActionButton.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        if (hasInternetConnection()) {
-                            addPostClickAction();
-                        } else {
-                            showFloatButtonRelatedSnackBar(R.string.internet_connection_failed);
-                        }
-                    }
-                });
-            }
+//            floatingActionButton = (FloatingActionButton) findViewById(R.id.addNewPostFab);
+//
+//            if (floatingActionButton != null) {
+//                floatingActionButton.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        if (hasInternetConnection()) {
+//                            addPostClickAction();
+//                        } else {
+//                            showFloatButtonRelatedSnackBar(R.string.internet_connection_failed);
+//                        }
+//                    }
+//                });
+//            }
 
             newPostsCounterTextView = (TextView) findViewById(R.id.newPostsCounterTextView);
             newPostsCounterTextView.setOnClickListener(new View.OnClickListener() {

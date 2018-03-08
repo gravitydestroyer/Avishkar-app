@@ -13,7 +13,7 @@ import com.gravitydestroyer.aavishkar.R;
 public class desc1 extends AppCompatActivity {
 
     public void phoneopen(View view){
-        String phone = "8967945051";
+        String phone = "9593766397";
         Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
         startActivity(intent);
     }

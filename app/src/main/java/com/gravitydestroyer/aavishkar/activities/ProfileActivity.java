@@ -355,12 +355,12 @@ public class ProfileActivity extends BaseActivity implements GoogleApiClient.OnC
                 LogoutHelper.signOut(mGoogleApiClient, this);
                 startMainActivity();
                 return true;
-            case R.id.createPost:
-                if (hasInternetConnection()) {
-                    openCreatePostActivity();
-                } else {
-                    showSnackBar(R.string.internet_connection_failed);
-                }
+//            case R.id.createPost:
+//                if (hasInternetConnection()) {
+//                    openCreatePostActivity();
+//                } else {
+//                    showSnackBar(R.string.internet_connection_failed);
+//                }
             default:
                 return super.onOptionsItemSelected(item);
         }

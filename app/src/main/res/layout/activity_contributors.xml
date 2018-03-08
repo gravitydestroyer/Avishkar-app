@@ -141,7 +141,6 @@
                     android:orientation="horizontal">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/circleImageView"
                         android:layout_width="50dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"
@@ -464,7 +463,6 @@
                     android:orientation="horizontal">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/circleImageView"
                         android:layout_width="50dp"
                         android:layout_height="80dp"
                         android:layout_weight="1"

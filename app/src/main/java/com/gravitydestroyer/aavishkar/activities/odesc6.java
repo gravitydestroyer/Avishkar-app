@@ -26,7 +26,7 @@ public class odesc6 extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("https://www.facebook.com/aavishkar.nitd/"));
+        intent.setData(Uri.parse("https://www.facebook.com/events/1690447597665116/?ti=as"));
         startActivity(intent);
     }
     @Override

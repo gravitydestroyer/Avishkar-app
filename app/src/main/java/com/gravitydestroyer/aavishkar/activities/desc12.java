@@ -23,7 +23,7 @@ public class desc12 extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("https://www.facebook.com/aavishkar.nitd/"));
+        intent.setData(Uri.parse("https://www.facebook.com/events/161462781333502/?ti=cl"));
         startActivity(intent);
     }
     @Override

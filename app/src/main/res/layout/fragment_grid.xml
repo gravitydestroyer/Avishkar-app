@@ -9,6 +9,5 @@
 
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/heading_workshops"/>
+        android:layout_height="wrap_content" />
 </RelativeLayout>

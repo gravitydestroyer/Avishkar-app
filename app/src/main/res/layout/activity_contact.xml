@@ -52,7 +52,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -144,7 +143,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -243,7 +241,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -335,7 +332,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -434,7 +430,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -526,7 +521,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -625,7 +619,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -717,7 +710,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -816,7 +808,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -825,23 +816,21 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
                         android:paddingTop="8dp"
-                        android:text="Piyush Aggarwal"
+                        android:text="Piyush Agrawal"
                         android:textColor="@android:color/background_light"
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="General"
+                        android:text="Logisitics"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -908,7 +897,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -917,7 +905,6 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
@@ -928,12 +915,11 @@
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="General"
+                        android:text="Logistics"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -1007,7 +993,6 @@
                         android:orientation="horizontal">
 
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/circleImageView"
                             android:layout_width="50dp"
                             android:layout_height="80dp"
                             android:layout_weight="1"
@@ -1016,7 +1001,6 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
@@ -1027,12 +1011,11 @@
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="General"
+                        android:text="Logistics"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 
@@ -1124,7 +1107,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical|center_horizontal"
                         android:minHeight="0dp"
-                        android:text="General"
+                        android:text="Logistics"
                         android:textColor="@android:color/background_light"
                         android:textSize="13sp" />
 

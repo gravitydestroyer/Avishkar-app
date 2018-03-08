@@ -18,9 +18,8 @@ public class WebsiteActivity extends AppCompatActivity {
 
         WebView webb=(WebView)findViewById(R.id.avishweb);
         webb.setWebViewClient(new WebViewClient());
-        webb.loadUrl("http://eurekoin.avskr.in/");
+        webb.loadUrl("http://eurekoin.avskr.in/dashboard");
         webb.getSettings().setJavaScriptEnabled(true);
         webb.getSettings().setSupportZoom(true);
-        webb.getSettings().setBuiltInZoomControls(true);
     }
 }

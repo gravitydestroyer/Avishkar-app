@@ -30,7 +30,7 @@
                 android:paddingTop="5dp">
 
                 <TextView
-                    android:id="@+id/textView3"
+
                     android:layout_width="match_parent"
                     android:layout_height="20sp"
                     android:layout_marginLeft="1dp"
@@ -42,7 +42,7 @@
                     android:textSize="19sp" />
 
                 <TextView
-                    android:id="@+id/textView4"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
@@ -52,7 +52,7 @@
             </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
+
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
@@ -72,19 +72,19 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/info_text"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_weight="6"
                         android:gravity="center_vertical"
                         android:padding="2dp"
-                        android:text="2nd Rounds-Transmission"
+                        android:text="2nd Round - Transmission"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -115,7 +115,7 @@
                 android:paddingTop="5dp">
 
                 <TextView
-                    android:id="@+id/textView3"
+
                     android:layout_width="match_parent"
                     android:layout_height="20sp"
                     android:layout_marginLeft="1dp"
@@ -127,7 +127,7 @@
                     android:textSize="19sp" />
 
                 <TextView
-                    android:id="@+id/textView4"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
@@ -137,7 +137,7 @@
             </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
+
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
@@ -157,7 +157,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/info_text"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -169,7 +169,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -249,7 +249,7 @@
                         android:layout_weight="6"
                         android:gravity="center_vertical"
                         android:padding="2dp"
-                        android:text="Cycle Stunts"
+                        android:text="Cycle Stunt"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
@@ -285,7 +285,7 @@
                 android:paddingTop="5dp">
 
                 <TextView
-                    android:id="@+id/textView3"
+
                     android:layout_width="match_parent"
                     android:layout_height="20sp"
                     android:layout_marginLeft="1dp"
@@ -297,7 +297,7 @@
                     android:textSize="19sp" />
 
                 <TextView
-                    android:id="@+id/textView4"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
@@ -307,7 +307,7 @@
             </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
+
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
@@ -327,7 +327,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/info_text"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -339,7 +339,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -370,7 +370,7 @@
                 android:paddingTop="5dp">
 
                 <TextView
-                    android:id="@+id/textView3"
+
                     android:layout_width="match_parent"
                     android:layout_height="20sp"
                     android:layout_marginLeft="1dp"
@@ -382,7 +382,7 @@
                     android:textSize="19sp" />
 
                 <TextView
-                    android:id="@+id/textView4"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
@@ -392,7 +392,7 @@
             </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
+
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
@@ -412,7 +412,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/info_text"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -424,7 +424,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -455,7 +455,7 @@
                 android:paddingTop="5dp">
 
                 <TextView
-                    android:id="@+id/textView3"
+
                     android:layout_width="match_parent"
                     android:layout_height="20sp"
                     android:layout_marginLeft="1dp"
@@ -467,7 +467,7 @@
                     android:textSize="19sp" />
 
                 <TextView
-                    android:id="@+id/textView4"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
@@ -477,7 +477,7 @@
             </LinearLayout>
 
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
+
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
@@ -497,7 +497,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/info_text"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
@@ -509,7 +509,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
