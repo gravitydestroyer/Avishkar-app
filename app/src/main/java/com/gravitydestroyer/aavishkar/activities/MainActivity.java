@@ -278,7 +278,7 @@ public class MainActivity extends BaseActivity {
 
     private void initContentView() {
         if (recyclerView == null) {
-//            floatingActionButton = (FloatingActionButton) findViewById(R.id.addNewPostFab);
+         floatingActionButton = (FloatingActionButton) findViewById(R.id.addNewPostFab);
 //
 //            if (floatingActionButton != null) {
 //                floatingActionButton.setOnClickListener(new View.OnClickListener() {

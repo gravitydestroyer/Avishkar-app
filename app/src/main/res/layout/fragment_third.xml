@@ -799,7 +799,7 @@
                         android:layout_weight="6"
                         android:gravity="center_vertical"
                         android:padding="2dp"
-                        android:text="IOT Hackathon"
+                        android:text="HackOverFlow - IOT Chapter"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
@@ -1614,7 +1614,7 @@
                         android:layout_weight="6"
                         android:gravity="center_vertical"
                         android:padding="2dp"
-                        android:text="Round 2 - Autolock"
+                        android:text="Round 2 - Autolocked"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
@@ -1954,7 +1954,7 @@
                         android:layout_weight="6"
                         android:gravity="center_vertical"
                         android:padding="2dp"
-                        android:text="Ignite (Keynote Speech)"
+                        android:text="Ignitia (Keynote Speech)"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
