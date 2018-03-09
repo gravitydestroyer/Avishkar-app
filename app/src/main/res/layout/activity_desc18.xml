@@ -31,7 +31,7 @@
             android:layout_marginRight="30dp"
             android:paddingBottom="10dp"
             android:paddingTop="15dp"
-            android:text="this is a very long descriptionthis is a very long descriptionthis is a very long descriptionthis is a very long description"
+            android:text="Put your thinking caps on as we bring an offline event where one just designs the algorithm for the new ideas which they want to code for in future. This event even gives a head start for GSOC where you need to first pitch with just the ideas."
             android:textColor="@android:color/white"
             android:textSize="15sp" />
 

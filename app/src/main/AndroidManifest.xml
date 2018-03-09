@@ -169,6 +169,8 @@
             android:parentActivityName=".activities.OfflineActivity"/>
         <activity android:name=".activities.desc23"
             android:parentActivityName=".activities.OfflineActivity"/>
+        <activity android:name=".activities.desc24"
+            android:parentActivityName=".activities.OfflineActivity"/>
         <activity android:name=".activities.odesc1"
             android:parentActivityName=".activities.OnlineActivity"/>
         <activity android:name=".activities.odesc2"

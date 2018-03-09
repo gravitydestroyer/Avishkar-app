@@ -97,6 +97,12 @@ public class OfflineActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),desc23.class);
         startActivity(intent);
     }
+
+    public void todesc24(View view){
+        Intent intent = new Intent(getApplicationContext(),desc24.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

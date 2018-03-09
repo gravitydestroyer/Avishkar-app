@@ -42,6 +42,7 @@ public class WebsiteActivity extends AppCompatActivity {
                 return super.shouldOverrideUrlLoading(view, request);
             }
         });
+        webb.getSettings().setUserAgentString("Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36");
         webb.loadUrl("http://eurekoin.avskr.in/dashboard");
         webb.getSettings().setJavaScriptEnabled(true);
         webb.getSettings().setSupportZoom(true);

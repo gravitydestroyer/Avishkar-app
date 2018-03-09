@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:fillViewport="true"
     android:layout_height="match_parent"
-    tools:context="com.gravitydestroyer.aavishkar.activities.desc1">
+    tools:context="com.gravitydestroyer.aavishkar.activities.desc18">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="0dp"
-        android:background="#125067"
+        android:background="#ca6a28"
         android:baselineAligned="false"
         android:orientation="vertical"
         android:weightSum="1">
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="230dp"
             android:layout_margin="10dp"
-            app:srcCompat="@drawable/clashoftitansdb" />
+            app:srcCompat="@drawable/royalleaguer" />
 
         <TextView
             android:id="@+id/textView"
@@ -31,7 +31,7 @@
             android:layout_marginRight="30dp"
             android:paddingBottom="10dp"
             android:paddingTop="15dp"
-            android:text="It is a relay race ride where the winners of each event need to overcome the obstacles to cross the finish line."
+            android:text="A time will come when the cannons would conflict, explosions would break in the sky, the flames would climb higher.  A time will come when the chariots would send face to face, gushing into a lightning attack, breaking the forts of the opponents, only the victorious one will stand. Presenting another robotic event where your bots defend your land, whatever price it may be, fight on the foreground, fight on the landing grounds, fight in the field and on the streets, fight in the hills and never surrender. Gear up as the battle begins in the Royal League."
             android:textColor="@android:color/white"
             android:textSize="15sp" />
 

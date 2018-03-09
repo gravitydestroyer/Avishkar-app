@@ -1227,7 +1227,7 @@
             app:cardBackgroundColor="#372107"
             app:cardCornerRadius="4dp"
             app:cardElevation="2dp"
-            app:cardUseCompatPadding="true">>
+            app:cardUseCompatPadding="true">
 
 
             <LinearLayout
@@ -1271,6 +1271,63 @@
                     android:layout_margin="6dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/genesisdo" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            app:cardBackgroundColor="#ca6a28"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="todesc24"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5.48"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="0"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="0dp"
+                        android:text="ROYAL LEAGUE"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0"
+                        android:text="I think and I know things."
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/royalleaguer" />
 
             </LinearLayout>
         </android.support.v7.widget.CardView>
